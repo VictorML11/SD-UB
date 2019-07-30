@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% block content %}
+    <br>
+    <h4> Reservation Details: </h4>
+    <ul>
+        <li><a> Restaurant Number: {{ reservation.restaurant.restaurant_number }}</a></li>
+        <li> <a> Restaurant Name: {{ reservation.restaurant.name }}</a></li>
+        <li> <a> Restaurant Capacity: {{ reservation.restaurant.restaurant_capacity }}</a></li>
+        <br>
+        <li><a> Reservation Day: {{ reservation.day }}</a></li>
+        <li><a> Reservation Hour: {{ reservation.time_slot }}</a></li>
+        <li><a> Num People: {{ reservation.num_people }}</a></li>
+    </ul>
+
+
+    <br><br>
+
+    {% endblock %}
+</body>
+</html>

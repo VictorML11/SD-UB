@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F8-Ajax</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+     <script>
+
+        function compare(ips){
+            $("#output").html("");
+            var output="";
+            var parameters = new Map();
+            var category = $("#category_selector").val();
+            var city = $("#inputCity").val();
+            var price = $("#inputPrice").val();
+
+
+
+            if(category != ""){
+                parameters.set('category', category);
+            }
+            if(city != ""){
+                parameters.set('city', city);
+            }
+            if(price != ""){
+                parameters.set('price', price);
+            }
+
+            var dir = "";
+            var j = 0;
+            for (var [clave, valor] of parameters) {
+                if(j == 0){
+                  dir +="?"+clave+"="+valor;
+                }else{
+                     dir +="&"+clave+"="+valor;
+                }
+                j++;
+            }
+
+            for(let i=0; i<ips.length; i++){
+                $.ajax({
+
+                    //url: 'http://' + ips[i] + ':8000/api/restaurants/'+dir,
+                    url: 'https://' + ips[i] + '/api/restaurants/'+dir,
+                    type: 'GET',
+                    dataType: 'json',
+
+		            success: function (data) {
+                        output+= "Requested URL: " + this.url + "<br>";
+                        output += '<pre id="json">';
+                        data['results'].sort(function (a,b) {
+                            return parseFloat(b.price_average) - parseFloat(a.price_average);
+                        });
+                        output += JSON.stringify(data['results'], undefined, 2);
+                        output += "</pre>";
+                        $("#output").append(output+"<hr>");
+                    },
+
+                    complete: function( xhr, status ) {
+                        output = "";
+                    },
+
+                    error: function( xhr, status, errorThrown ) {
+                        alert( "Sorry, there was a problem!" );
+                        console.log( "Error: " + errorThrown );
+                        console.log( "Status: " + status );
+                        console.dir( xhr );
+                    }
+                });
+            }
+        }
+        </script>
+
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% load crispy_forms_tags %}
+    {% block content %}
+    {% load static %}
+        <br><br>
+    <div class="form-group">
+        <label for="sel2">Select a category: </label>
+        <select class="form-control" id="category_selector">
+            {% for category in categories %}
+                <option>{{ category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="form-group">
+      <label for="inputCity">Input a City: </label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <br>
+
+    <div class="form-group">
+      <label for="inputPrice">Input a Price: </label>
+      <input type="text" class="form-control" id="inputPrice">
+    </div>
+    <br>
+   <button class="btn btn-info btn-sm" onclick="compare({{ ips }})">Send Request! </button>
+    <br><br>
+
+    <div id=output class=""></div>
+    {% endblock %}
+
+</body>
+</html>

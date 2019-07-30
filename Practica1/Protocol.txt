@@ -1,0 +1,40 @@
+Alumnes: Alejandro alfonso, Victor Maestro, Ling zhu, Xin Liu
+
+
+Despues de establecer conexión:
+
+	- El cliente puede salir con: "S"
+	- El cliente puede empezar con trama: "Iniciar, identificador"
+	
+	Posibles errores:
+		Trama: E1: "Se cierra conexion".
+		
+	Si se inica partida el servidor responde con trama:
+		Trama: [Carta1, Carta2], dinero(actual), apuesta actual (10)
+	
+	
+- Turno:
+
+	- Acciones: DOBLAR(D), PLANTARSE(P), PEDIR CARTA(C), RENDIRSE(R), RETIRARSE(R)
+	
+	Trama: "Acción, Dinero" La acción es un Char de la acción
+	
+	Dependiendo de la acción el servidor hace:
+	
+		- DOBLAR: Comprovar que pueda doblar el jugador con su dinero.
+			Trama: E2: "OUT OF MONEY"
+			Trama: Nºde cartas, [Carta1, Carta2....], dinero(actualizado), apuesta actual*2
+			
+		- PLANTARSE: Cambio de turno, el servidor responde:
+			Trama: Perder(P)/Ganar(G), dinero, NºdeCartas, [Carta1, Carta2, ...]
+			
+		- RENDIRSE: El cliente mantiene la mitad del dinero apostado
+			Trama [S-C]: "PERDER(P), Dinero/2".
+			El cliente puede decidir si quiere volver a inciar o no.
+			
+		- RETIRARSE: Se pierde el dinero apostado. Se cierra la conexión.
+			Trama [S-C]: "PERDER(P), Dinero".
+			Desconectar connexión.
+		
+		- PEDIR CARTA: Nºde Cartas, [Carta1, Carta2, Carta 3], dinero, apuesta
+

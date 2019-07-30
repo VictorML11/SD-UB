@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+{% extends 'registration/base1.html' %}
+{% block title %}Create an account{% endblock %}
+
+{% block content %}
+    {% load crispy_forms_tags %}
+
+    <h1 style="text-align: center">Join Forkilla!</h1>
+    <p style="text-align: center">Create you account</p>
+
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input type="submit" class="btn btn-primary" value="Create an account">
+    </form>
+{% endblock %}
+
+</body>
+</html>

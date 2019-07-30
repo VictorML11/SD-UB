@@ -1,0 +1,206 @@
+[
+  {
+    "model": "forkilla.Restaurant",
+    "pk": 1,
+    "fields": {
+      "restaurant_number": "09186777",
+      "name": "Only Tapas",
+      "menu_description" :"TAPAS",
+      "price_average" : "30",
+      "is_promot" : "False",
+      "rate" : 5.0,
+      "category" : "Medi",
+      "city": "Barcelona",
+      "address": "Les Rambles, 33",
+      "country": "Spain",
+      "restaurant_capacity": 40
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 2,
+    "fields": {
+      "restaurant_number": "09186666",
+      "name": "Only Pinxos",
+      "menu_description" :"PINXOS",
+      "price_average" : "130.33",
+      "is_promot" : "True",
+      "rate" : 4.5,
+      "category" : "Basq",
+      "city": "Barcelona",
+      "address": "Gran Via de les Corts Catalanes, 495",
+      "country": "Spain",
+      "restaurant_capacity": 240
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 3,
+    "fields": {
+      "restaurant_number": "09186333",
+      "name": "Only Sopas",
+      "menu_description" :"SOPAS",
+      "price_average" : "15.50",
+      "is_promot" : "True",
+      "rate" : 3.6,
+      "category" : "Medi",
+      "city": "Madrid",
+      "address": "Calle de Caramuel, 64",
+      "country": "Spain",
+      "restaurant_capacity": 50
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 4,
+    "fields": {
+      "restaurant_number": "09186444",
+      "name": "Only Bocatas",
+      "menu_description" :"BOCATAS",
+      "price_average" : "2.45",
+      "is_promot" : "True",
+      "rate" : 4.2,
+      "category" : "Basq",
+      "city": "Cornella",
+      "address": "Carrer Pau Riera, 55",
+      "country": "Spain",
+      "restaurant_capacity": 30
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 5,
+    "fields": {
+      "restaurant_number": "09186555",
+      "name": "Only Pasta",
+      "menu_description" :"PASTAS",
+      "price_average" : "20.00",
+      "is_promot" : "False",
+      "rate" : 3.7,
+      "category" : "Ital",
+      "city": "Italia",
+      "address": "Vicolo del Farinone, 25",
+      "country": "Italy",
+      "restaurant_capacity": 75
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 6,
+    "fields": {
+      "restaurant_number": "09186888",
+      "name": "Only Creepes",
+      "menu_description" :"CREEPES",
+      "price_average" : "15.50",
+      "is_promot" : "False",
+      "rate" : 4.8,
+      "category" : "Crep",
+      "city": "Fontainebleau",
+      "address": "Rue de France, 49",
+      "country": "France",
+      "restaurant_capacity": 94
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 7,
+    "fields": {
+      "restaurant_number": "09186999",
+      "name": "Only Rice",
+      "menu_description" :"RICES",
+      "price_average" : "7.85",
+      "is_promot" : "True",
+      "rate" : 3.2,
+      "category" : "Rice",
+      "city": "Pekin",
+      "address": "WC8C+5F Dongcheng, 88",
+      "country": "China",
+      "restaurant_capacity": 45
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 8,
+    "fields": {
+      "restaurant_number": "09186123",
+      "name": "Russian Food",
+      "menu_description" :"RUSSIAN",
+      "price_average" : "75.87",
+      "is_promot" : "False",
+      "rate" : 4.6,
+      "category" : "Russ",
+      "city": "San Petesburgo",
+      "address": "Nevsky avenue, 47",
+      "country": "Russia",
+      "restaurant_capacity": 80
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 9,
+    "fields": {
+      "restaurant_number": "09186234",
+      "name": "Only Fruit",
+      "menu_description" :"FRUITS",
+      "price_average" : "35.89",
+      "is_promot" : "True",
+      "rate" : 1.4,
+      "category" : "Vegy",
+      "city": "Perth",
+      "address": "St Georges Terrace, 33",
+      "country": "Australia",
+      "restaurant_capacity": 55
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 10,
+    "fields": {
+      "restaurant_number": "09186345",
+      "name": "Only Tacos",
+      "menu_description" :"TACOS",
+      "price_average" : "25.45",
+      "is_promot" : "True",
+      "rate" : 5.0,
+      "category" : "Mexi",
+      "city": "Colonia Condesa",
+      "address": "Calle Atlixco, 38",
+      "country": "Mexico",
+      "restaurant_capacity": 120
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 11,
+    "fields": {
+      "restaurant_number": "09186567",
+      "name": "Only Shushi",
+      "menu_description" :"SHUSHI",
+      "price_average" : "45.30",
+      "is_promot" : "False",
+      "rate" : 4.8,
+      "category" : "Japa",
+      "city": "Tokio",
+      "address": "MPQ2+86 Tokyo, 24",
+      "country": "Japan",
+      "restaurant_capacity": 150
+    }
+  },
+   {
+    "model": "forkilla.Restaurant",
+    "pk": 12,
+    "fields": {
+      "restaurant_number": "09186678",
+      "name": "Only Hamburgers",
+      "menu_description" :"HAMBURGERS",
+      "price_average" : "30.20",
+      "is_promot" : "False",
+      "rate" : 3.3,
+      "category" : "BBQ",
+      "city": "London",
+      "address": "Mount St, 20",
+      "country": "United Kingdom",
+      "restaurant_capacity": 300
+    }
+  }
+]

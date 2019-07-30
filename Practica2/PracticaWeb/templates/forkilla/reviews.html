@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% load crispy_forms_tags %}
+    {% block content %}
+    <br><br>
+    <h2>{{ user.get_username }}</h2>
+    <h2> Rate {{restaurant.name}}</h2>
+    <form method="POST" class="form-group">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+
+
+
+
+
+    {% endblock %}
+</body>
+</html>

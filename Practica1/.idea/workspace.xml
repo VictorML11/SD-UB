@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="SingleThreadSever" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64508647-c6c2-4d0a-b266-0bbe50ca157f" name="Default Changelist" comment="+ Revertit problema de equals en el card afegit a ultim moment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Card.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ERROR_CLI</find>
+      <find>sendHand</find>
+      <find>send</find>
+      <find>forDigi</find>
+      <find>ordinal</find>
+      <find>throw new Unknown</find>
+      <find>getAscii()</find>
+      <find>getSuit</find>
+      <find>sendHa</find>
+      <find>len</find>
+      <find>getBal</find>
+      <find>stabli</find>
+      <find>sta</find>
+      <find>stab</find>
+      <find>INITI</find>
+      <find>Character</find>
+      <find>Character.forDigit</find>
+      <find>getB</find>
+      <find>write_command</find>
+      <find>Chara</find>
+      <find>Unexpected</find>
+      <find>throw new</find>
+      <find>hittComm</find>
+      <find>adding</find>
+      <find>new dea</find>
+      <find>The taken action</find>
+      <find>UnknownActionException</find>
+      <find>isEnd</find>
+      <find>basicStr</find>
+      <find>SRND</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="victor" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/victor" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SelectorServer/src/ub/edu/softwaredistribuit/Server.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/Winner.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/Server.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/Client.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/GameClientThread.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/BasicStrategy.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/players/Dealer.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/NoExistRankException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/NoExistSuitException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/NoExistWinnerException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/ServerSideErrorException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/UnexpectedCommandException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/UnknownActionException.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Suit.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Rank.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/GameMode.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Command.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/test/ub/edu/softwaredistribuit/commons/players/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/Dealer.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/players/Player.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/Player.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Command.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Deck.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Winner.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Suit.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Rank.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/GameState.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/ServerGameThread.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/utils/LogUtils.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/MaxCashExceedException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NoExistRankException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NoExistSuitException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/UnknownActionException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotClientCommandException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotEnoughCashException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotEnoughCoinsException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/PlayerCheatsException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/ServerSideErrorException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/WrongActionException.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/ILogic.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/CustomMenu.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/GamePlayer.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/GameLogic.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/players/GamePlayer.java" />
+        <option value="$PROJECT_DIR$/Client/test/ub/edu/softwaredistribuit/ClientTest.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/ComUtils.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/utils/ComUtils.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/test/ub/edu/softwaredistribuit/ServerTest.java" />
+        <option value="$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Card.java" />
+        <option value="$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Card.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="F8" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Client" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="F8" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Client" type="616d4139:PackageViewModuleNode" />
+              <item name="ub.edu.softwaredistribuit" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="F8" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Client" type="616d4139:PackageViewModuleNode" />
+              <item name="ub.edu.softwaredistribuit" type="1f31426a:PackageElementNode" />
+              <item name="commons" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554243114814" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SelectorServer" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14791666" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ub.edu.softwaredistribuit" />
+      <recent name="ub.edu.softwaredistribuit.commons.players" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ub.edu.softwaredistribuit.commons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\victor\Desktop\FormateoSSD\Universidad\Semestre VII\SD\F8\Server\src\ub\edu\softwaredistribuit\exceptions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ub.edu.softwaredistribuit.commons" />
+      <recent name="ub.edu.softwaredistribuit.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ServerTest">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ub.edu.softwaredistribuit.Client" />
+      <module name="Client" />
+      <option name="PROGRAM_PARAMETERS" value="-s localhost -p 3000 -i 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ub.edu.softwaredistribuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ub.edu.softwaredistribuit.Server" />
+      <module name="MultiThreadServer" />
+      <option name="PROGRAM_PARAMETERS" value="-p 3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ub.edu.softwaredistribuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiThreadServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ub.edu.softwaredistribuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ub.edu.softwaredistribuit" />
+      <option name="MAIN_CLASS_NAME" value="ub.edu.softwaredistribuit.ServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest.testReplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiThreadServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ub.edu.softwaredistribuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ub.edu.softwaredistribuit" />
+      <option name="MAIN_CLASS_NAME" value="ub.edu.softwaredistribuit.ServerTest" />
+      <option name="METHOD_NAME" value="testReplay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest.testUnknownActionCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiThreadServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ub.edu.softwaredistribuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ub.edu.softwaredistribuit" />
+      <option name="MAIN_CLASS_NAME" value="ub.edu.softwaredistribuit.ServerTest" />
+      <option name="METHOD_NAME" value="testUnknownActionCommand" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.ServerTest" />
+      <item itemvalue="JUnit.ServerTest.testReplay" />
+      <item itemvalue="JUnit.ServerTest.testUnknownActionCommand" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServerTest" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.ServerTest.testUnknownActionCommand" />
+        <item itemvalue="JUnit.ServerTest.testReplay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64508647-c6c2-4d0a-b266-0bbe50ca157f" name="Default Changelist" comment="" />
+      <created>1551888791538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551888791538</updated>
+      <workItem from="1551888795086" duration="6206000" />
+      <workItem from="1551900823123" duration="507000" />
+      <workItem from="1551905008937" duration="4350000" />
+      <workItem from="1552079906356" duration="17270000" />
+      <workItem from="1552128142305" duration="46194000" />
+      <workItem from="1552222104139" duration="12581000" />
+      <workItem from="1552493729971" duration="5306000" />
+      <workItem from="1552504847567" duration="26737000" />
+      <workItem from="1552573706267" duration="12190000" />
+      <workItem from="1552590735840" duration="20917000" />
+      <workItem from="1552691171412" duration="14047000" />
+      <workItem from="1552742616291" duration="2463000" />
+      <workItem from="1552745088913" duration="2205000" />
+      <workItem from="1552840486631" duration="2171000" />
+      <workItem from="1552911138497" duration="6000" />
+      <workItem from="1553025802210" duration="1563000" />
+      <workItem from="1553044117017" duration="2189000" />
+      <workItem from="1553047124687" duration="383000" />
+      <workItem from="1553092352484" duration="2792000" />
+      <workItem from="1554056378591" duration="12544000" />
+      <workItem from="1554139890209" duration="13900000" />
+      <workItem from="1554211982027" duration="4043000" />
+      <workItem from="1554227253812" duration="8608000" />
+      <workItem from="1554242705206" duration="528000" />
+      <workItem from="1554303137536" duration="69000" />
+      <workItem from="1554303234537" duration="104000" />
+      <workItem from="1554304086218" duration="801000" />
+    </task>
+    <task id="LOCAL-00001" summary="+ Project Structure SetUP">
+      <created>1551889357242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551889357242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+ Server side stuff. &#10;* Work done by Victor &amp; Alejandro in class">
+      <created>1551908885330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551908885330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+ Created methods for the server log file&#10;+ Added Test to evaluate the Player's hand value&#10;+ Added arguments check for Client">
+      <created>1552095288757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552095288757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="+ More stuff added.&#10;* Working with Alejandro in Skype.">
+      <created>1552150100841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552150100841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="+ Solved major bugs&#10;+ Added more logic to the server&#10;+ Started some test * Currently not working">
+      <created>1552182801242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552182801242</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+ Keep working on server game logic">
+      <created>1552186369420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552186369421</updated>
+    </task>
+    <task id="LOCAL-00007" summary="+ GameLogic almost ended. *NOT TESTED*&#10;TODO: // CURRENT BET with player balance is not updating!">
+      <created>1552231166596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552231166596</updated>
+    </task>
+    <task id="LOCAL-00008" summary="+ Solved some command communication problems! &#10;TODO: // CURRENT BET with player balance is not updating!">
+      <created>1552235474049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552235474049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="+ added option to be able to do a hit after a hit">
+      <created>1552497625773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552497625773</updated>
+    </task>
+    <task id="LOCAL-00010" summary="+ solved problems from file log server">
+      <created>1552499834554</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552499834554</updated>
+    </task>
+    <task id="LOCAL-00011" summary="+ Server side solved minor bugs and improved code&#10;+ Added JavaDoc comments in ComUtils">
+      <created>1552514515084</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552514515084</updated>
+    </task>
+    <task id="LOCAL-00012" summary="+ Improved code from Client&#10;+ Solved minor bugs from Server&#10;+ Changed logic code of Client">
+      <created>1552533603221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552533603221</updated>
+    </task>
+    <task id="LOCAL-00013" summary="+ Solved protocol problems.&#10;+ Added automatic mode&#10;* TODO: Improve UI of automatic mode &amp; save dealers hand etc.">
+      <created>1552585885809</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552585885809</updated>
+    </task>
+    <task id="LOCAL-00014" summary="+ Code clean up and added more stuff">
+      <created>1552595448094</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552595448094</updated>
+    </task>
+    <task id="LOCAL-00015" summary="+ Solved minor bugs">
+      <created>1552597582679</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552597582679</updated>
+    </task>
+    <task id="LOCAL-00016" summary="+ Log client cards after show&#10;+ Basic strategy idea">
+      <created>1552599994576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552599994576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="+ Implemented SingleThreadServer&#10;+ Added more adaptability at reading the Suit from Cards">
+      <created>1552610721766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552610721766</updated>
+    </task>
+    <task id="LOCAL-00018" summary="+ Minor Changes">
+      <created>1552613987657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552613987657</updated>
+    </task>
+    <task id="LOCAL-00019" summary="+ Ended Client &amp; Ended MultiThreadServer&#10;+ Basic Client Strategy implemented.&#10;+ Solved minor bugs&#10;* TODO: ServerSelector">
+      <created>1552705216936</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552705216936</updated>
+    </task>
+    <task id="LOCAL-00020" summary="+ Removed Lombok Lib From Client and MultiThreadServer">
+      <created>1553047411365</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1553047411365</updated>
+    </task>
+    <task id="LOCAL-00021" summary="+ Corrected getHandValue to only count 1 ACE as 1 when handValue &gt; 21">
+      <created>1554059369739</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554059369739</updated>
+    </task>
+    <task id="LOCAL-00022" summary="+ Started JavaDoc for Client side">
+      <created>1554083582516</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554083582516</updated>
+    </task>
+    <task id="LOCAL-00023" summary="+ Ended Javadoc for client and server&#10;+ Removed Selector server since it is not working">
+      <created>1554151285107</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1554151285107</updated>
+    </task>
+    <task id="LOCAL-00024" summary="+ Ended tests from Client Side">
+      <created>1554230765575</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1554230765575</updated>
+    </task>
+    <task id="LOCAL-00025" summary="+ Ended tests from Server Side">
+      <created>1554233555926</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554233555926</updated>
+    </task>
+    <task id="LOCAL-00026" summary="+ Revertit problema de equals en el card afegit a ultim moment">
+      <created>1554242815771</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1554242815771</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ServerTest_testWrongActionCommand - 2019.04.02 at 21h 27m 09s.xml">
+      <configuration name="ServerTest.testWrongActionCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_testReplay - 2019.04.02 at 21h 27m 23s.xml">
+      <configuration name="ServerTest.testReplay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_testReplay - 2019.04.02 at 21h 28m 15s.xml">
+      <configuration name="ServerTest.testReplay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_testReplay - 2019.04.02 at 21h 28m 31s.xml">
+      <configuration name="ServerTest.testReplay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest - 2019.04.02 at 21h 28m 38s.xml">
+      <configuration name="ServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_testUnknownActionCommand - 2019.04.02 at 21h 30m 22s.xml">
+      <configuration name="ServerTest.testUnknownActionCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_testUnknownActionCommand - 2019.04.02 at 21h 30m 46s.xml">
+      <configuration name="ServerTest.testUnknownActionCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest - 2019.04.02 at 21h 30m 56s.xml">
+      <configuration name="ServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest - 2019.04.02 at 21h 32m 07s.xml">
+      <configuration name="ServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest - 2019.04.03 at 00h 11m 05s.xml">
+      <configuration name="ServerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="220674000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27449664" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4688385" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4957507" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.4858357" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="make" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181208" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.88668555" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.4858357" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="make" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ Server side stuff. &#10;* Work done by Victor &amp; Alejandro in class" />
+    <MESSAGE value="+ Created methods for the server log file&#10;+ Added Test to evaluate the Player's hand value&#10;+ Added arguments check for Client" />
+    <MESSAGE value="+ More stuff added.&#10;* Working with Alejandro in Skype." />
+    <MESSAGE value="+ Solved major bugs&#10;+ Added more logic to the server&#10;+ Started some test * Currently not working" />
+    <MESSAGE value="+ Keep working on server game logic" />
+    <MESSAGE value="+ GameLogic almost ended. *NOT TESTED*&#10;TODO: // CURRENT BET with player balance is not updating!" />
+    <MESSAGE value="+ Solved some command communication problems! &#10;TODO: // CURRENT BET with player balance is not updating!" />
+    <MESSAGE value="+ added option to be able to do a hit after a hit" />
+    <MESSAGE value="+ solved problems from file log server" />
+    <MESSAGE value="+ Server side solved minor bugs and improved code&#10;+ Added JavaDoc comments in ComUtils" />
+    <MESSAGE value="+ Improved code from Client&#10;+ Solved minor bugs from Server&#10;+ Changed logic code of Client" />
+    <MESSAGE value="+ Solved protocol problems.&#10;+ Added automatic mode&#10;* TODO: Improve UI of automatic mode &amp; save dealers hand etc." />
+    <MESSAGE value="+ Code clean up and added more stuff" />
+    <MESSAGE value="+ Solved minor bugs" />
+    <MESSAGE value="+ Log client cards after show&#10;+ Basic strategy idea" />
+    <MESSAGE value="+ Implemented SingleThreadServer&#10;+ Added more adaptability at reading the Suit from Cards" />
+    <MESSAGE value="+ Minor Changes" />
+    <MESSAGE value="+ Ended Client &amp; Ended MultiThreadServer&#10;+ Basic Client Strategy implemented.&#10;+ Solved minor bugs&#10;* TODO: ServerSelector" />
+    <MESSAGE value="+ Removed Lombok Lib From Client and MultiThreadServer" />
+    <MESSAGE value="+ Corrected getHandValue to only count 1 ACE as 1 when handValue &gt; 21" />
+    <MESSAGE value="+ Started JavaDoc for Client side" />
+    <MESSAGE value="+ Ended Javadoc for client and server&#10;+ Removed Selector server since it is not working" />
+    <MESSAGE value="+ Ended tests from Client Side" />
+    <MESSAGE value="+ Ended tests from Server Side" />
+    <MESSAGE value="+ Revertit problema de equals en el card afegit a ultim moment" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Revertit problema de equals en el card afegit a ultim moment" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="54" selection-start-line="54" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Winner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Winner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/utils/LogUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/NoExistRankException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NoExistRankException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/NoExistSuitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NoExistSuitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/UnknownActionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/UnknownActionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotClientCommandException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotEnoughCoinsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/NotEnoughCashException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/PlayerCheatsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/ServerSideErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/ServerSideErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/WrongActionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SelectorServer/src/ub/edu/softwaredistribuit/Server.java" />
+    <entry file="file://$PROJECT_DIR$/SelectorServer/src/ub/edu/softwaredistribuit/commons/GameLogic.java" />
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/ILogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/CustomMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1022" column="18" lean-forward="true" selection-start-line="1022" selection-start-column="18" selection-end-line="1022" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/org/junit/jupiter/api/AssertDoesNotThrow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1529" selection-start-line="1529" selection-end-line="1529" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/players/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="190" column="5" lean-forward="true" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/exceptions/UnexpectedCommandException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/TestServer.txt" />
+    <entry file="file://$PROJECT_DIR$/Client/TestClient.txt" />
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/ServerGameThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/test/ub/edu/softwaredistribuit/commons/players/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/players/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/test/ub/edu/softwaredistribuit/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="246" column="18" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#ClientTest#0" />
+            <element signature="method#end#0;class#ClientTest#0" />
+            <element signature="method#testStart#0;class#ClientTest#0" />
+            <element signature="method#testCash#0;class#ClientTest#0" />
+            <element signature="method#testSurrender#0;class#ClientTest#0" />
+            <element signature="method#testShow#0;class#ClientTest#0" />
+            <element signature="method#testReplay#0;class#ClientTest#0" />
+            <element signature="method#startAction#0;class#ClientTest#0" />
+            <element signature="method#cashAction#0;class#ClientTest#0" />
+            <element signature="method#betAction#0;class#ClientTest#0" />
+            <element signature="method#hitAction#0;class#ClientTest#0" />
+            <element signature="method#surrenderAction#0;class#ClientTest#0" />
+            <element signature="method#replayAction#0;class#ClientTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/utils/ComUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/utils/ComUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="228" column="76" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="620" column="44" lean-forward="true" selection-start-line="620" selection-start-column="44" selection-end-line="620" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/exceptions/MaxCashExceedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/commons/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/test/ub/edu/softwaredistribuit/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startAction#0;class#ServerTest#0" />
+            <element signature="method#cashAction#0;class#ServerTest#0" />
+            <element signature="method#hitAction#0;class#ServerTest#0" />
+            <element signature="method#surrenderAction#0;class#ServerTest#0" />
+            <element signature="method#showAction#0;class#ServerTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/ub/edu/softwaredistribuit/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiThreadServer/src/ub/edu/softwaredistribuit/commons/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14791666" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14791666" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14791666" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MultiThreadServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14791666" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.projectlombok:lombok:1.18.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14791666" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

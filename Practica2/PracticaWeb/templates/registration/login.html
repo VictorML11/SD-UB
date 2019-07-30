@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    <title>Sign in to Forkilla</title>
+    <meta charset="utf-8">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'forkilla/css/style.css' %}">
+
+</head>
+<body>
+{% block content %}
+    {% load crispy_forms_tags %}
+    <div class="container">
+        <a class="img-responsive" href="{% url 'index' %}">
+            <img src="{% static 'forkilla/images/loginLogo.png' %}"  style="width:400px; position: relative; down: 500px; left: 300px;" alt="loginlogo">
+        </a>
+        <br><h4 style="text-align: center">Sign in</h4>
+        {% if form.errors %}
+            <p class="error">Sorry, that's not a valid username or password</p>
+        {% endif %}
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+    </div>
+
+{% endblock %}
+
+</body>
+</html>

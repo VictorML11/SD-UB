@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*
+  Flavor name: Default (mini-default)
+  Author: Angelos Chalaris (chalarangelo@gmail.com)
+  Maintainers: Angelos Chalaris
+  mini.css version: v3.0.0-alpha.3
+*/
+/*
+  Browsers resets and base typography.
+*/
+/* Core module CSS variable definitions */
+:root {
+  --fore-color: rgba(0, 0, 0, 0.7);
+  --secondary-fore-color: #444;
+  --back-color: #f8f8f8;
+  --secondary-back-color: #f0f0f0;
+  --blockquote-color: #f57c00;
+  --pre-color: #1565c0;
+  --border-color: #aaa;
+  --secondary-border-color: #ddd;
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #0277bd;
+  --a-visited-color: #01579b;
+}
+
+html {
+  font-size: 16px;
+  padding-top: 100px;
+}
+
+html, * {
+  font-family: Helvetica;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+a, b, del, em, i, ins, q, span, strong, u {
+  font-size: 1em;
+}
+
+
+#searchform{
+    position:absolute;
+    right:31.5%;
+    top:30%;
+    width:30%;
+}
+
+
+
+* {
+  font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    color: var(--fore-color);
+    background: var(--back-color);
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin: calc(1.5 * var(--universal-margin)) var(--universal-margin);
+  font-weight: 500;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: var(--secondary-fore-color);
+  display: block;
+  margin-top: -0.25rem;
+}
+
+h1 {
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
+}
+
+h2 {
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
+}
+
+h3 {
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio));
+}
+
+h4 {
+  font-size: calc(1rem * var(--heading-ratio));
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: calc(1rem / var(--heading-ratio));
+}
+
+p {
+  margin: var(--universal-margin);
+}
+
+ol, ul {
+  margin: var(--universal-margin);
+  padding-left: calc(2 * var(--universal-margin));
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+
+nav * {
+  padding: var(--universal-padding) calc(1.5 * var(--universal-padding));
+}
+
+/* A link that has not been visited */
+a:link {
+    color: rgb(73, 173, 255);
+    text-decoration: none;
+}
+
+/* A link that is hovered on */
+a:hover {
+    color: rgb(40, 100, 255);
+}
+
+
+
+
+
+button.btn-primary {
+    background-color: rgb(73, 173, 255);
+    border-color: white;
+
+}
+
+button.btn-primary:hover {
+    background-color: rgb(40, 100, 255);
+
+}

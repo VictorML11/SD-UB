@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load static %}
+    <link rel="icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    <title>Base</title>
+    <meta charset="utf-8">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'forkilla/css/style.css' %}">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'index' %}">
+                <img src="{% static 'forkilla/images/logo1.png' %}" alt="logo" style="width:150px;">
+            </a>
+
+            <form class="from-inline" method="GET" action="" id="searchform">
+                <input style="width: 300px" class="form-control mr-sm-3" type="text" id="searchbox" name="q" value="{{ request.GET.q }}" placeholder=" Search by city...">
+            </form>
+
+
+
+                <!-- Links -->
+            <ul class="navbar-nav">
+                {% if not request.user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="accounts/login">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="register" style=" border-color: #01579b ;border:1px; border-style: solid;">Sign up</a>
+                    </li>
+                {% else %}
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            {{ user }}
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Your Profile</a>
+                            <a class="dropdown-item" href="{% url 'user_space' %}">My reservations</a>
+                            <a class="dropdown-item" href="accounts/logout">Sign out</a>
+                        </div>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        {% block content %}
+        {% endblock %}
+
+        <br><br>
+        {% if viewedrestaurants.restaurant.all %}
+            <h2>Your last viewed Restaurants</h2>
+            <br>
+            <form action="{% url 'reservation'%}" method="get">
+            {% csrf_token %}
+            <div class="row text-center">
+                {% for restaurant in viewedrestaurants.restaurantinsertdate_set.all|slice:"5"%}
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100">
+                             {% if restaurant.restaurant.featured_photo %}
+                                <img class="card-img-top" src="{{ restaurant.restaurant.featured_photo.url }}" alt="">
+                             {% endif %}
+
+                            <div class="card-body">
+                                <a href="{% url 'details' restaurant.restaurant.restaurant_number%}" >
+                                    <h4 class="card-title">{{restaurant.restaurant.name}}</h4>
+                                </a>
+                                <p class="card-text">{{restaurant.restaurant.rate}} <img src="{% static 'forkilla/images/diamond.ico' %}" alt="diamond" style="width:17px;"></p>
+                            </div>
+
+                            <div class="card-footer">
+                                <button class="btn btn-primary" type="submit" name="reservation" value={{restaurant.restaurant.restaurant_number}} > Book now!</button>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            </form>
+        {% endif %}
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurants</title>
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% block content %}
+    {% load static %}
+
+        <br>
+
+        {% if city %}
+             <li>
+                 {% if category %}
+                     <a href="{% url 'index' %}forkilla">forkilla</a>/<a href="{% url 'restaurants' city%}">{{ city }}</a>/{{ category }}
+                 {% else %}
+                     <a href="{% url 'index' %}forkilla">forkilla</a>/{{city}}
+                 {% endif %}
+             </li>
+        {% endif %}
+
+        {% if restaurants %}
+            {% if promoted %}
+                <br>
+                <h2>Most Popular Restaurants</h2>
+            {% else %}
+                <br>
+                <h2>Restaurants in {{ search_result }}</h2>
+            {% endif %}
+            <br>
+
+            <form action="{% url 'reservation'%}" method="get">
+            <div class="row text-center">
+
+                {% for restaurant in restaurants %}
+                    <div class="col-lg-4 col-md-4 mb-4">
+
+                        <div class="card h-100">
+
+                            {% if restaurant.featured_photo %}
+                                <img class="card-img-top" src="{{ restaurant.featured_photo.url }}" alt="">
+                            {% endif %}
+
+                                <div class="card-body">
+                                    <a href="{% url 'details' restaurant.restaurant_number%}" >
+                                        <h4 class="card-title">{{restaurant.name}}</h4>
+                                    </a>
+                                    <p class="card-text">{{restaurant.rate}} <img src="{% static 'forkilla/images/diamond.ico' %}" alt="diamond" style="width:17px;"></p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <button class="btn btn-primary" type="submit" name="reservation" value={{restaurant.restaurant_number}} > Book now!</button>
+                                </div>
+                            </div>
+                        </div>
+
+                {% endfor %}
+            </div>
+            </form>
+        {% else %}
+            <p>No restaurants are available.</p>
+        {% endif %}
+
+    {% endblock %}
+</body>
+</html>

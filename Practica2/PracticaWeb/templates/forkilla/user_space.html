@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Space</title>
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% block content %}
+        <br><br>
+        {% if user_reservations.all %}
+            <div class="container">
+            <h2 style="alignment: center">{{ user }}´s reservations:</h2><br>
+                <div class="row text-center">
+
+                    {% for reservation in user_reservations.all %}
+                        <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="card h-100">
+                                 {% if reservation.restaurant.featured_photo %}
+                                    <img class="card-img-top" src="{{ reservation.restaurant.featured_photo.url }}" alt="">
+                                 {% endif %}
+                                <div class="card-body">
+                                    <h4>{{ reservation.restaurant.name }}</h4>
+                                </div>
+                                <p class="card-text">
+                                    Reservation Day: {{ reservation.day }} <br>
+                                    Reservation Hour: {{ reservation.time_slot }} <br>
+                                    Num People: {{ reservation.num_people }}
+                                </p>
+                                 <div class="card-footer">
+                                     <form action="{% url 'delreservation'%}" method="get">
+                                    <button class="btn btn-primary" type="submit" name="delete_reservation"
+                                            value={{reservation.id}} > Delete</button>
+                                     </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+       {% endif %}
+
+    {% endblock %}
+</body>
+</html>

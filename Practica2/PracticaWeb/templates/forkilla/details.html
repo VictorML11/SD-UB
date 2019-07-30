@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+    {% extends 'forkilla/base.html' %}
+    {% block content %}
+    <br>
+    {% if restaurant %}
+        <li><a href="{% url 'index' %}forkilla">forkilla</a>/<a
+                href="{% url 'restaurants' restaurant.city %}">{{restaurant.city}}</a>/<a
+                href="{% url 'restaurants' restaurant.city restaurant.category %}">{{restaurant.category}}</a>/{{restaurant.name}}
+            </li>
+
+        <h4> Restaurant Number: {{ restaurant.restaurant_number }}</h4>
+        <h4> Restaurant Name: {{ restaurant.name }}</h4>
+        <h4> Restaurant Menu Description: {{ restaurant.menu_description }}</h4>
+        <h4> Restaurant Prize Average: {{ restaurant.price_average }}</h4>
+        <h4> Restaurant Is Promoted: {{ restaurant.is_promot }}</h4>
+        <h4> Restaurant Rate: {{ restaurant.rate }}</h4>
+        <h4> Restaurant Address: {{ restaurant.address }}</h4>
+        <h4> Restaurant City: {{ restaurant.city }}</h4>
+        <h4> Restaurant Country: {{ restaurant.country }}</h4>
+        <h4> Restaurant Category: {{ restaurant.category }}</h4>
+    {% endif %}
+
+    <br>
+
+    <h4>Reviews</h4>
+    {% for review in reviews.all %}
+        {% if review.restaurant.restaurant_number == restaurant.restaurant_number %}
+            <ul>
+                <li>
+                    {{review.user}} <br>
+                    Title   :  {{review.review_title}} <br>
+                    Comment :  {{ review.review_comment}} <br>
+                    Rating  :  {{review.review_rate}} <br>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+
+    <form action="{% url 'reviews'%}" method="get">
+    <button type="submit" class="btn btn-primary" name="review" value={{restaurant.restaurant_number}}> Make review</button>
+    </form>
+
+    {% endblock %}
+</body>
+</html>
